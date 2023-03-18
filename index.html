@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>WELCOME TO TIC TAC GAME</h1>
+    <table>
+        <tr>
+            <td class="cell" onclick="playerMove(this)"></td>
+            <td class="cell" onclick="playerMove(this)"></td>
+            <td class="cell" onclick="playerMove(this)"></td>
+        </tr>
+        <tr>
+            <td class="cell" onclick="playerMove(this)"></td>
+            <td class="cell" onclick="playerMove(this)"></td>
+            <td class="cell" onclick="playerMove(this)"></td>
+        </tr>
+        <tr>
+            <td class="cell" onclick="playerMove(this)"></td>
+            <td class="cell" onclick="playerMove(this)"></td>
+            <td class="cell" onclick="playerMove(this)"></td>
+        </tr>
+    </table>
+    <div id="playerTurn">It is the turn of 'X'!</div>
+    <div id="result"></div>
+    <button onclick="restartGame()">Restart Game</button>
+</body>
+
+</html>
