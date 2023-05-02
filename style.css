@@ -3,6 +3,8 @@ body {
 }
 table, tr, td {  
     border-collapse: collapse;
+    display: flex;
+    justify-content: center;
 }
 ​
 table {
